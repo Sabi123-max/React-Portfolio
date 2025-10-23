@@ -20,10 +20,11 @@ export const HeroSection = () => {
             </span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground mx=auto opacity-0 animate-fade-in-delay-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-            tempore maxime quod dolorum minima asperiores accusantium quaerat
-            explicabo, deleniti recusandae odio odit eius consequatur
-            dignissimos voluptas quam, laboriosam quo aliquid.
+            I’m a passionate software developer skilled in Python, Django, and
+            React, with a focus on backend systems and real-time integrations. I
+            enjoy building responsive web interfaces and developing interactive
+            Slack bots — like mood-tracking bots that monitor user emotions at
+            regular intervals.
           </p>
           <div>
             <a

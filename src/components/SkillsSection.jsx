@@ -2,12 +2,15 @@ import { useState } from "react";
 import { cn } from "../lib/utils";
 
 const skills = [
-  { name: "HTML/CSS", level: 95, category: "Frontend" },
-  { name: "Javascript", level: 60, category: "Frontend" },
-  { name: "Python", level: 70, category: "Backend" },
-  { name: "Git/GitHub", level: 90, category: "Tools" },
-  { name: "Docker", level: 70, category: "Tools" },
+  { name: "HTML/CSS", level: 90, category: "Frontend" },
+  { name: "Javascript", level: 50, category: "Frontend" },
+  { name: "Python", level: 65, category: "Backend" },
+  { name: "Git/GitHub", level: 80, category: "Tools" },
+  { name: "Docker", level: 60, category: "Tools" },
   { name: "VS Code", level: 95, category: "Tools" },
+  { name: "Express", level: 40, category: "Backend" },
+  { name: "Tailwind CSS", level: 50, category: "Frontend" },
+  { name: "PostgreSQL", level: 60, category: "Backend" },
 ];
 
 export const SkillSection = () => {

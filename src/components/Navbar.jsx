@@ -29,10 +29,10 @@ export const NavBar = () => {
       <div className="container flex items-center justify-between">
         <a
           className="text-xl font-bold text-primary flex items-center pt-3 pr-10"
-          href="#home"
+          href="#hero"
         >
           <span className="relative z-10">
-            <span className="text-glow text-foreground ">Pedro Tech</span>{" "}
+            <span className="text-glow text-foreground">Muhammed Sabik</span>{" "}
             Portfolio
           </span>
         </a>
@@ -50,8 +50,11 @@ export const NavBar = () => {
         </div>
         {/* mobilenav */}
 
-        <button onClick={() => setIsMenuOpen((prev) => !prev)} className="md:hidden p-2 text-foreground z-50"
-          aria-label={isMenuOpen ? "Close Menu" : "Open Menu"}>
+        <button
+          onClick={() => setIsMenuOpen((prev) => !prev)}
+          className="md:hidden p-2 text-foreground z-50"
+          aria-label={isMenuOpen ? "Close Menu" : "Open Menu"}
+        >
           {" "}
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
@@ -70,7 +73,7 @@ export const NavBar = () => {
                 key={key}
                 href={item.href}
                 className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                onClick={()=>setIsMenuOpen(false)}
+                onClick={() => setIsMenuOpen(false)}
               >
                 {item.name}
               </a>
