@@ -16,7 +16,7 @@ const projects = [
     description: "A website which shows my Portfolio",
     image: "/projects/project2.png",
     tags: ["React", "Tailwind", "Expressjs"],
-    demourl: "https://peaceful-begonia-72b326.netlify.app/",
+    demourl: "https://peaceful-begonia-72b326.netlify.app",
     githuburl: "https://github.com/Sabi123-max/React-Portfolio",
   },
   {
